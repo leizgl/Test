@@ -40,7 +40,7 @@ public class OrderModel extends AbstractModel{
 	@Column(name = "DELIVER_TIME")
     long deliverTime;
 	
-	@Column(name = "DELIVER_TIME")
-    long deliverTime;
+	@Column(name = "COMPLETED_TIME")
+    long completedTime;
 	
 }
