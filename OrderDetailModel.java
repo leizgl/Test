@@ -23,5 +23,12 @@ import lombok.Setter;
 @Table(name = "ORDER_DETAIL")
 @GenericGenerator(name = "wechat-shop-id", strategy = "uuid"){
 	
+	//private static final long serialVersionUID = ;
+	
+	@Id
+    @GeneratedValue(generator = "wechat-shop-id")
+	@Column(name = "ID", nullable = false, updatable = false)
+	String id;
+	
 	
 }  
