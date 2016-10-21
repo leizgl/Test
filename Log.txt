@@ -19,5 +19,11 @@ Log2016/10/21
 	为什么有些用private，有些用protected？
 	
 4、
+	@Column(name = "DELIVER_TIME")
+    long delivreTime;
+	
+	@Column(name = "COMPLETED_TIME")
+    long completedTime;
+	这两项在OrderModel（ORDER）和OrderDetailModel（ORDER_DETAIL）中都有出现。
 
  

@@ -39,4 +39,13 @@ import lombok.Setter;
 	@Column(name = "QUANTITY")
     long quantity;	
 	
+	@Column(name = "STATUS")
+    String status;	
+	
+	@Column(name = "DELIVER_TIME")
+    long delivreTime;
+	
+	@Column(name = "COMPLETED_TIME")
+    long completedTime;
+	
 }  
