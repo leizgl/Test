@@ -29,7 +29,7 @@ public class OrderModel extends AbstractModel{
 	@Id
     @GeneratedValue(generator = "wechat-shop-id")
 	@Column(name = "ID", nullable = false, updatable = false)
-	String id;
+	int id;
 	
 	@Column(name = "USER_ID")
     String userId;
