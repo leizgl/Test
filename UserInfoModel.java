@@ -20,33 +20,14 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @Entity
-@Table(name = "ORDER_DETAIL")
+@Table(name = "USER_INFO")
 @GenericGenerator(name = "wechat-shop-id", strategy = "uuid")
-public class OrderDetailModel extends AbstractModel{
+public class UserInfoModel extends AbstractModel{
 	
 	//private static final long serialVersionUID = ;
 	
 	@Id
     @GeneratedValue(generator = "wechat-shop-id")
 	@Column(name = "ID", nullable = false, updatable = false)
-	String id;
-	
-	@Column(name = "ORDER_ID")
-    long orderId;	
-	
-	@Column(name = "PRODUCT_ID")
-    String productId;	
-	
-	@Column(name = "QUANTITY")
-    long quantity;	
-	
-	@Column(name = "STATUS")
-    String status;	
-	
-	@Column(name = "DELIVER_TIME")
-    long delivreTime;
-	
-	@Column(name = "COMPLETED_TIME")
-    long completedTime;
-	
-}  
+	int id;
+}
