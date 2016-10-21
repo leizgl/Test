@@ -25,5 +25,20 @@ Log2016/10/21
 	@Column(name = "COMPLETED_TIME")
     long completedTime;
 	这两项在OrderModel（ORDER）和OrderDetailModel（ORDER_DETAIL）中都有出现。
+	
+5、CREATE TABLE `PRODUCT 中 `PARENT_ID` varchar(40) NOT NULL, 拼写错误？PARENT_ID->PATENT_ID
+
+6、CREATE TABLE `PRODUCT 中
+
+	`ATTRIBUTES_TEXT` longtext,
+  
+  
+	`ITEM_STATUS` varchar(20) DEFAULT NULL COMMENT 'ACTIVE, INACTIVE. ',
+	
+
+	`SEARCH_TERMS` mediumtext,
+	
+	这几项不懂什么意思。
+
 
  
