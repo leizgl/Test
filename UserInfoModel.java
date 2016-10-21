@@ -30,4 +30,17 @@ public class UserInfoModel extends AbstractModel{
     @GeneratedValue(generator = "wechat-shop-id")
 	@Column(name = "ID", nullable = false, updatable = false)
 	int id;
+	
+	// @Column(name = "USER_ID")
+    // long orderId;
+	
+	@Column(name = "PHOTO")
+    String photo;
+	
+	@Column(name = "ADDRESS")
+    String address;
+
+	@Column(name = "NICK_NAME")
+    String nickName;
+		
 }
